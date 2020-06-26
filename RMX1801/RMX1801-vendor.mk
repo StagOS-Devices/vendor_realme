@@ -151,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/realme/RMX1801/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/realme/RMX1801/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
-    vendor/realme/RMX1801/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/realme/RMX1801/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/realme/RMX1801/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/realme/RMX1801/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
@@ -168,7 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/realme/RMX1801/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@2.0-service \
     vendor/realme/RMX1801/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
-    vendor/realme/RMX1801/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/realme/RMX1801/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/realme/RMX1801/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/realme/RMX1801/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
@@ -431,7 +429,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/lib/hw/vendor.oppo.hardware.mmdisplayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.mmdisplayfeature@1.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@2.0-impl.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/hw/vulkan.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.sdm660.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
@@ -2814,11 +2811,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
@@ -2902,8 +2895,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
@@ -2949,7 +2940,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/hw/vulkan.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.sdm660.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
@@ -3125,11 +3115,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/lib64/libqsee_keybox_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsee_keybox_ca.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
@@ -3209,9 +3195,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/realme/RMX1801/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
@@ -3251,6 +3234,4 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
-    QPerformance \
-    UxPerformance \
     WfdCommon
