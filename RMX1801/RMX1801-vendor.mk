@@ -3266,6 +3266,4 @@ PRODUCT_PACKAGES += \
     uceShimService \
     dpmserviceapp \
     ims \
-    qcrilmsgtunnel \
-    QPerformance \
-    UxPerformance
+    qcrilmsgtunnel
